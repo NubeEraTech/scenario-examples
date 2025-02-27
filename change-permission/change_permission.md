@@ -1,2 +1,2 @@
 ## Task: Change File Permissions  
-Set permissions for `/etc/testfile.txt` to `644`.  
+Create file `/etc/testfile.txt` and set permissions for `/etc/testfile.txt` to `644`.  
