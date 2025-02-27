@@ -1,0 +1,16 @@
+{
+    "title": "Download a File Test",
+    "description": "Verify download a file",
+    "details": {
+        "steps": [
+            {
+                "title": "Download a File",
+                "text": "download_file.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

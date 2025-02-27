@@ -1,0 +1,16 @@
+{
+    "title": "Mount a Drive Test",
+    "description": "Verify mount a drive",
+    "details": {
+        "steps": [
+            {
+                "title": "Mount a Drive",
+                "text": "mount_drive.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

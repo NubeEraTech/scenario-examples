@@ -1,0 +1,16 @@
+{
+    "title": "Check Disk Usage Test",
+    "description": "Verify check disk usage",
+    "details": {
+        "steps": [
+            {
+                "title": "Check Disk Usage",
+                "text": "disk_usage.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

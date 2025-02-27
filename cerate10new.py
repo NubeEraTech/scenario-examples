@@ -3,6 +3,10 @@ import json
 
 # List of scenarios with their tasks
 scenarios = [
+    ("create-file", "Create a File", "Create a file named `/etc/testfile.txt`."),
+    ("create-user", "Create a User", "Create a user named `testuser`."),
+    ("change-permission", "Change File Permissions", "Set permissions for `/etc/testfile.txt` to `644`."),
+    ("install-package", "Install a Package", "Install the package `curl`."),
     ("start-service", "Start a Service", "Start the `apache2` service."),
     ("add-line", "Add a Line to a File", "Add the line `export MY_VAR=123` to `/etc/environment`."),
     ("create-symlink", "Create a Symbolic Link", "Create a symbolic link `/etc/mylink` pointing to `/etc/abc`."),
@@ -10,6 +14,10 @@ scenarios = [
 
 # Verify scripts for each scenario
 verify_scripts = {
+    "create-file": 'FILE="/etc/testfile.txt"; [ -f "$FILE" ] && exit 0 || exit 1',
+    "create-user": 'USER="testuser"; id "$USER" &>/dev/null && exit 0 || exit 1',
+    "change-permission": 'FILE="/etc/testfile.txt"; [ "$(stat -c "%a" $FILE)" == "644" ] && exit 0 || exit 1',
+    "install-package": 'dpkg -l | grep -q "^ii  curl " && exit 0 || exit 1',
     "start-service": 'systemctl is-active --quiet apache2 && exit 0 || exit 1',
     "add-line": 'grep -q "export MY_VAR=123" /etc/environment && exit 0 || exit 1',
     "create-symlink": 'LINK="/etc/mylink"; TARGET="/etc/abc"; [ -L "$LINK" ] && [ "$(readlink "$LINK")" == "$TARGET" ] && exit 0 || exit 1',

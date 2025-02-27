@@ -1,0 +1,16 @@
+{
+    "title": "Rename a File Test",
+    "description": "Verify rename a file",
+    "details": {
+        "steps": [
+            {
+                "title": "Rename a File",
+                "text": "rename_file.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

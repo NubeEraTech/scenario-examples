@@ -1,0 +1,16 @@
+{
+    "title": "Disable Firewall Test",
+    "description": "Verify disable firewall",
+    "details": {
+        "steps": [
+            {
+                "title": "Disable Firewall",
+                "text": "disable_firewall.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

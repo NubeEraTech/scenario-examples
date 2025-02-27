@@ -1,0 +1,16 @@
+{
+    "title": "Delete a File Test",
+    "description": "Verify delete a file",
+    "details": {
+        "steps": [
+            {
+                "title": "Delete a File",
+                "text": "delete_file.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

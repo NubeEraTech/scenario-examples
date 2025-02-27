@@ -1,0 +1,16 @@
+{
+    "title": "Create a Group Test",
+    "description": "Verify create a group",
+    "details": {
+        "steps": [
+            {
+                "title": "Create a Group",
+                "text": "create_group.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

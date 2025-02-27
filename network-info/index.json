@@ -1,0 +1,16 @@
+{
+    "title": "Show Network Information Test",
+    "description": "Verify show network information",
+    "details": {
+        "steps": [
+            {
+                "title": "Show Network Information",
+                "text": "network_info.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

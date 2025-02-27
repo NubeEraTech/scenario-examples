@@ -1,0 +1,16 @@
+{
+    "title": "Add User to Group Test",
+    "description": "Verify add user to group",
+    "details": {
+        "steps": [
+            {
+                "title": "Add User to Group",
+                "text": "add_user_group.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
