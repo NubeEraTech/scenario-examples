@@ -1,0 +1,16 @@
+{
+    "title": "Create a Symbolic Link Test",
+    "description": "Verify create a symbolic link",
+    "details": {
+        "steps": [
+            {
+                "title": "Create a Symbolic Link",
+                "text": "create_symlink.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

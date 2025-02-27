@@ -1,0 +1,16 @@
+{
+    "title": "Start a Service Test",
+    "description": "Verify start a service",
+    "details": {
+        "steps": [
+            {
+                "title": "Start a Service",
+                "text": "start_service.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
