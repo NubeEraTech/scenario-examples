@@ -1,0 +1,16 @@
+{
+  "title": "Create Folder Ubuntu Test",
+  "description": "Verify user input",
+  "details": {
+    "steps": [
+      {
+        "title": "Please create a folder",
+        "text": "create_folder.md",
+        "verify": "verify.sh"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
