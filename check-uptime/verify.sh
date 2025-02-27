@@ -1,11 +1,14 @@
 #!/bin/bash
 
-# Get uptime
-UPTIME=$(uptime -p)
+# Run uptime command and store the output
+USER_UPTIME=$(history | grep 'uptime' | tail -1)
 
-# Check if uptime command provides output
-if [ -n "$UPTIME" ]; then
-    echo "System uptime: $UPTIME"
+# If the uptime command was run, the verification succeeds
+if [[ -n "$USER_UPTIME" ]]; then
+    echo "Success: System uptime command executed."
+    exit 0
 else
-    echo "Failed to retrieve uptime."
+    echo "Error: You did not run the uptime command."
+    exit 1
 fi
+
