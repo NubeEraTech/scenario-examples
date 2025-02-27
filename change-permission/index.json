@@ -1,0 +1,17 @@
+{
+    "title": "Change File Permissions Test",
+    "description": "Verify file permission change",
+    "details": {
+      "steps": [
+        {
+          "title": "Change file permissions",
+          "text": "change_permission.md",
+          "verify": "verify.sh"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
+  

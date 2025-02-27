@@ -1,0 +1,16 @@
+{
+  "title": "Create File Ubuntu Test",
+  "description": "Verify file creation",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a file",
+        "text": "create_file.md",
+        "verify": "verify.sh"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
