@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 5: 05 Functions In Python",
+  "description": "Learn essential Python concepts: 05 functions in python.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 5.1: Create a Function",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

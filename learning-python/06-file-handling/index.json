@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 6: 06 File Handling",
+  "description": "Learn essential Python concepts: 06 file handling.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 6.1: Write to a File",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

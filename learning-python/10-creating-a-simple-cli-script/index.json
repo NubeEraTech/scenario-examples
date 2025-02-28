@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 10: 10 Creating A Simple Cli Script",
+  "description": "Learn essential Python concepts: 10 creating a simple cli script.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 10.1: Create a CLI Script",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

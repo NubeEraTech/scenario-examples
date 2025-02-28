@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 4: 04 Loops For And While",
+  "description": "Learn essential Python concepts: 04 loops for and while.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 4.1: Loop Through Numbers",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

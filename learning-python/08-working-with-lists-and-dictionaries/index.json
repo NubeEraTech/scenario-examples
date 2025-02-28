@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 8: 08 Working With Lists And Dictionaries",
+  "description": "Learn essential Python concepts: 08 working with lists and dictionaries.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 8.1: Access List Elements",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

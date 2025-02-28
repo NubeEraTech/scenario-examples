@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 2: 02 Working With Variables",
+  "description": "Learn essential Python concepts: 02 working with variables.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 2.1: Create a Variable",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

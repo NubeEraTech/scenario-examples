@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 3: 03 Conditionals If Statements",
+  "description": "Learn essential Python concepts: 03 conditionals if statements.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 3.1: Use an `if` Statement",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

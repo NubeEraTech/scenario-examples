@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 1: 01 Basic Python Syntax",
+  "description": "Learn essential Python concepts: 01 basic python syntax.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 1.1: Print a Message",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

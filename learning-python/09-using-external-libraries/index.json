@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 9: 09 Using External Libraries",
+  "description": "Learn essential Python concepts: 09 using external libraries.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 9.1: Make an HTTP Request",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

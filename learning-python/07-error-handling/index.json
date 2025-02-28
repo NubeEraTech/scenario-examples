@@ -1,0 +1,23 @@
+{
+  "title": "Scenario 7: 07 Error Handling",
+  "description": "Learn essential Python concepts: 07 error handling.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 7.1: Handle Division by Zero",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
