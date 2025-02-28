@@ -2,7 +2,7 @@
 
 Write a script that accepts a name and prints a greeting.
 
-```python
+```plain
 import sys
 name = sys.argv[1]
 print(f'Hello, {name}!')

@@ -2,7 +2,7 @@
 
 Define a function `greet` that prints 'Hello!'.
 
-```python
+```plain
 def greet():
     print('Hello!')
 greet()

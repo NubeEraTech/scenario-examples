@@ -2,6 +2,6 @@
 
 Print 'Hello, Python!' to the console.
 
-```python
+```plain
 print('Hello, Python!')
 ```{exec}

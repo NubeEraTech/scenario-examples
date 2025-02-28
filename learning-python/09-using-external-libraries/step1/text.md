@@ -2,7 +2,7 @@
 
 Use `requests` to fetch data from `example.com`.
 
-```python
+```plain
 import requests
 res = requests.get('http://example.com')
 print(res.status_code)

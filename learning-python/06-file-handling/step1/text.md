@@ -2,7 +2,7 @@
 
 Write 'Python is great!' to `output.txt`.
 
-```python
+```plain
 with open('output.txt', 'w') as f:
     f.write('Python is great!')
 ```{exec}

@@ -2,7 +2,7 @@
 
 Create a variable `x` with value `10` and print it.
 
-```python
+```plain
 x = 10
 print(x)
 ```{exec}

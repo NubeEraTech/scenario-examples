@@ -2,7 +2,7 @@
 
 Use `try-except` to handle division by zero errors.
 
-```python
+```plain
 try:
     result = 10 / 0
 except ZeroDivisionError:

@@ -52,7 +52,7 @@ def create_scenario(index, scenario_name, steps):
         step_path = os.path.join(scenario_path, f"step{i}")
         os.makedirs(step_path, exist_ok=True)
         
-        text_md = f"## {index}.{i}: {step['title']}\n\n{step['description']}\n\n```python\n{step['code']}\n```{{exec}}\n"
+        text_md = f"## {index}.{i}: {step['title']}\n\n{step['description']}\n\n```plain\n{step['code']}\n```{{exec}}\n"
         verify_sh = f"#!/bin/bash\n{step['verify']}"
 
         with open(os.path.join(step_path, "text.md"), "w") as f:
