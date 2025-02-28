@@ -1,2 +1,0 @@
-
-Create folder `/etc/abc`
