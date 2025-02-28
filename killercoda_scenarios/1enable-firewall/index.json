@@ -1,0 +1,16 @@
+{
+    "title": "Enable Firewall Test",
+    "description": "Verify enable firewall",
+    "details": {
+        "steps": [
+            {
+                "title": "Enable Firewall",
+                "text": "1enable_firewall.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

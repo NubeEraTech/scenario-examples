@@ -1,0 +1,16 @@
+{
+    "title": "Unmount a Drive Test",
+    "description": "Verify unmount a drive",
+    "details": {
+        "steps": [
+            {
+                "title": "Unmount a Drive",
+                "text": "1unmount_drive.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

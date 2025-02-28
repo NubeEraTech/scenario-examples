@@ -1,0 +1,16 @@
+{
+    "title": "List All Groups Test",
+    "description": "Verify list all groups",
+    "details": {
+        "steps": [
+            {
+                "title": "List All Groups",
+                "text": "1list_groups.md",
+                "verify": "verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
