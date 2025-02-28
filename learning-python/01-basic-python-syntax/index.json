@@ -18,6 +18,6 @@
     }
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "python"
   }
 }
